@@ -1,3 +1,4 @@
 ss-env/
 __pycache__
 .env
+data
