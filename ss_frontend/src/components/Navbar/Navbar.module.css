@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #151e29;
+  color: white;
+}
+
+body {
+  margin: 0;
+  background-color: #f5f7fb;
+}
+.logo {
+  font-size: 24px;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.project {
+  color: gray;
+}

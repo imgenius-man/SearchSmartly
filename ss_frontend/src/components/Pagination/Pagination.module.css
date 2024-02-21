@@ -1,0 +1,35 @@
+.paginationContainer {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.button {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #41e3d4;
+  background-color: #fff;
+  color: #151e29;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: default;
+  border-color: #ccc;
+}
+
+.addButton {
+  border-color: #41e3d4;
+  background-color: #41e3d4;
+  color: black;
+}
+
+.subtractButton {
+  border-color: #151e29;
+  background-color: #151e29;
+  color: white;
+}

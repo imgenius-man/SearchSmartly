@@ -1,0 +1,60 @@
+.searchFieldContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 40px;
+  padding: 5px 5px 5px 0px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: white;
+  width: 50%;
+}
+
+.searchBar {
+  flex-grow: 1;
+  padding: 10px;
+  border-width: 0px;
+  font-size: 16px;
+
+  ::placeholder {
+    color: #aaa;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.filterContainer {
+  position: relative;
+}
+
+.filterCard {
+  position: absolute;
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  overflow-y: auto;
+
+  cursor: pointer;
+}
+
+.display {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.filterItem {
+  margin: 10px;
+}
+
+.highlight {
+  color: #40e3d4;
+}
