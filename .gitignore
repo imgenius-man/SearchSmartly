@@ -2,3 +2,5 @@ ss-env/
 __pycache__
 .env
 data
+package-lock.json
+node_modules
